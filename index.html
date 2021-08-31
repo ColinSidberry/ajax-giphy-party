@@ -7,7 +7,11 @@
 </head>
 
 <body>
-
+<form action="submit" onsubmit="event.preventDefault()">
+  <label>Giphy Search</label>
+  <input id="giphySearch" type="text" name="giphySearch">
+  <button id="submitButton" type="submit">submit</button>
+</form>
 <script src="https://unpkg.com/jquery"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
 <script src="app.js"></script>
